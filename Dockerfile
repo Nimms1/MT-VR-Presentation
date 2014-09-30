@@ -3,7 +3,7 @@ FROM jayaram/mt-vr-env
 MAINTAINER M1019330
 
 # Location of presentation URL
-RUN cd /webapps && wget https://s3.amazonaws.com/vikesh-vehicle-rental/presentation/1.1.6/VehiclePresentation.war
+RUN cd /webapps && wget https://s3.amazonaws.com/vikesh-vehicle-rental/presentation/1.3.1/VehiclePresentation.war
 
 ADD start_up.sh /
 
